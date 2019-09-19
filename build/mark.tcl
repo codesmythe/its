@@ -4,7 +4,10 @@ start_salv
 
 mark_packs
 
-respond "DDT" "tran\033g"
+#respond "DDT" "tran\033g"
+expect -exact "\n"
+send -- "tran\033g"
+
 respond "#" "0"
 respond "OK" "y"
 expect -timeout 300 EOT

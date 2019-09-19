@@ -1,17 +1,17 @@
 set console wru=034
 set cpu its
 set cpu 512k
-set dpa dis
-set dpb dis
+# set dpa dis
+# set dpb dis
 set rpb dis
 set tua dis
-set fha dis
-set dpb dis
+# set fha dis
+# set dpb dis
 set lpt dis
-set cr dis
+# set cr dis
 set dc disable
-set dtc dis
-set dk dis
+# set dtc dis
+# set dk dis
 set pd ena
 set pd on
 set mta mpx=7
